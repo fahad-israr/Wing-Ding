@@ -13,7 +13,7 @@ int main()
         cin>>i>>j;
     int s=0;
     
-    if(i>=a||j>=a){return 0;}
+    if(i>=a||j>=a)return 0;
    for(int t=i;t<=j;t++)
     s+=arr[t];
     
